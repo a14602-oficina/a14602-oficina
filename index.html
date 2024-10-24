@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - InsideBox</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container-fluid {
+            height: 100vh;
+        }
+
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .form-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .form-section p {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .background-section {
+            background: url("https://images.pexels.com/photos/2832432/pexels-photo-2832432.png?auto=compress&cs=tinysrgb&w=1800&h=980&dpr=1") no-repeat  ;
+            height: 953px;
+            width: 1000px;
+            margin-right: px ;
+        }
+
+        .social-login button {
+            margin: 5px;
+        }
+
+        .signin-link {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .signin-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signin-link a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Form Section -->
+            <div class="col-md-6 form-section">
+                <div class="text-center mb-4">
+                    <img src="logo.png" alt="InsideBox Logo" style="width: 50px;">
+                </div>
+                <h2>Sign Up to InsideBox</h2>
+                <p>Start your journey</p>
+                <form class="w-75">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                    <div class="text-center mt-3 mb-3">
+                        <span>or sign up with</span>
+                    </div>
+                    <div class="d-flex justify-content-center social-login">
+                        <button type="button" class="btn btn-light border"><i class="fab fa-facebook"></i> Facebook</button>
+                        <button type="button" class="btn btn-light border"><i class="fab fa-google"></i> Google</button>
+                        <button type="button" class="btn btn-light border"><i class="fab fa-apple"></i> Apple</button>
+                    </div>
+                </form>
+                <div class="signin-link">
+                    <p>Have an account? <a href="#">Sign in</a></p>
+                </div>
+            </div>
+            <!-- Background Section -->
+            <div class="col-md-6 background-section d-none d-md-block"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
