@@ -1,4 +1,4 @@
-<h1>Gonçalo Costa</h1>
+<h1>Gonçalo Ferreira</h1>
 <h3>Técnico de Gestão e Programação de Sistemas Informáticos</h3>
 <a href="mailto:a14602@oficina.pt">
   Entre em contacto
